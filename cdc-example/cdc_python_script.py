@@ -25,11 +25,11 @@ import json
 ##################################################################################
 # To update your protocol buffer definition with your sample_data.proto file run:
 #
-#   protoc --python_out=. cdc_sample_data.proto
+#   protoc --python_out=. sample_data.proto
 #
 ##################################################################################
  
-import cdc_sample_data_pb2
+import sample_data_pb2
  
 # The list of fields (i.e. the table's schema) to search in the given data to write to BigQuery.
 FIELDS_TO_CHECK = [
@@ -44,7 +44,7 @@ FIELDS_TO_CHECK = [
  
 # Function to create a batch of row data to be serialized.
 def create_row_data(data):
-    row = cdc_sample_data_pb2.SampleData()
+    row = sample_data_pb2.SampleData()
     for field in FIELDS_TO_CHECK:
       # This IF statement is particularly useful when optional fields aren't provided and thus are passed
       # as null values to BigQuery.
