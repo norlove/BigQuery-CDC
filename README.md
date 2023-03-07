@@ -1,11 +1,10 @@
 # BigQuery-CDC
-This repo contains examples of how to stream Change Data Capture (CDC) UPSERTs natively into BigQuery using the Storage Write API.
+This repo contains an example of how to stream UPSERTs natively into BigQuery.
 
-The blog post which provides context into BigQuery Native JSON and streaming via these two methods can be found [Add when available](https://google.com).
+BigQuery change data capture (CDC) updates your BigQuery tables by processing and applying streamed updates to existing data. This synchronization is accomplished through upsert and delete row operations, which are streamed in real-time by the BigQuery Storage Write API. 
 
-**Ingesting via the BigQuery Storage Write API:**
-    
-Documentation on how to use the Storage Write API can be found [Add when available](https://google.com)
-    For a detailed instructions on how to use the BigQuery Storage Write API, please see our documentation [HERE](https://cloud.google.com/bigquery/docs/write-api)
+Documentation on how to use the Storage Write API can be found [HERE](https://cloud.google.com/bigquery/docs/write-api).
 
-Please refer and copy the files from the *upsert-example* folder.
+The blog post which provides context into BigQuery CDC and streaming upserts can be found [HERE - Add when available](https://google.com).
+
+Please refer and copy the files from the *cdc-example* folder.
