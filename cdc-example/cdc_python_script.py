@@ -77,7 +77,7 @@ class BigQueryStorageWriteAppend(object):
         # protocol buffer representation of your message descriptor.
         proto_schema = types.ProtoSchema()
         proto_descriptor = descriptor_pb2.DescriptorProto()
-        cdc_sample_data_pb2.SampleData.DESCRIPTOR.CopyToProto(proto_descriptor)
+        sample_data_pb2.SampleData.DESCRIPTOR.CopyToProto(proto_descriptor)
         proto_schema.proto_descriptor = proto_descriptor
         proto_data = types.AppendRowsRequest.ProtoData()
         proto_data.writer_schema = proto_schema
