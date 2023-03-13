@@ -6,7 +6,6 @@
   "Customer_Address": "1600 Amphitheatre Pkwy, Mountain View, CA",
   "Customer_Tier": "Commercial",
   "Active_Subscriptions": "{\"Internet_Subscription\":\"Trial\",\"Music_Subscription\":\"Free\"}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  },
  {
@@ -16,7 +15,6 @@
   "Customer_Address": "350 Fifth Avenue, New York, NY",
   "Customer_Tier": "Commercial",
   "Active_Subscriptions": "{}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  },
  {
@@ -26,7 +24,6 @@
   "Customer_Address": "10 Downing Street, London, England",
   "Customer_Tier": "Enterprise",
   "Active_Subscriptions": "{\"Internet_Subscription\":\"Paid\",\"Music_Subscription\":\"Paid\"}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  },
  {
@@ -36,7 +33,6 @@
   "Customer_Address": "4059 Mt Lee Dr., Hollywood, CA",
   "Customer_Tier": "Commercial",
   "Active_Subscriptions": "{\"TV_Subscription\":\"Free\"}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  },
  {
@@ -46,7 +42,6 @@
   "Customer_Address": "221 B Baker St, London, England",
   "Customer_Tier": "Commercial",
   "Active_Subscriptions": "{\"Music_Subscription\":\"Free\"}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  },
  {
@@ -56,7 +51,6 @@
   "Customer_Address": "1 Dr Carlton B Goodlett Pl, San Francisco, CA",
   "Customer_Tier": "Commercial",
   "Active_Subscriptions": "{\"TV_Subscription\":\"Trial\"}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  },
  {
@@ -66,7 +60,6 @@
   "Customer_Address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
   "Customer_Tier": "Commercial",
   "Active_Subscriptions": "{\"Internet_Subscription\":\"Paid\"}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  },
  {
@@ -76,7 +69,6 @@
   "Customer_Address": "11 Wall Street, New York, NY",
   "Customer_Tier": "Enterprise",
   "Active_Subscriptions": "{\"Music_Subscription\":\"Paid\"}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  },
  {
@@ -86,7 +78,6 @@
   "Customer_Address": "1600 Pennsylvania Avenue, Washington DC",
   "Customer_Tier": "Enterprise",
   "Active_Subscriptions": "{\"Internet_Subscription\":\"Paid\",\"TV_Subscription\":\"Paid\",\"Music_Subscription\":\"Trial\"}",
-  "_CHANGE_SEQUENCE_NUMBER": 1,
   "_CHANGE_TYPE": "UPSERT"
  }
 ]
