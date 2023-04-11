@@ -5,6 +5,6 @@ This repo contains an example of how to stream UPSERTs natively into BigQuery.
 
 Documentation on how to use the Storage Write API can be found [HERE](https://cloud.google.com/bigquery/docs/write-api).
 
-The blog post which provides context into BigQuery CDC and streaming upserts can be found [HERE - Add when available](https://google.com).
+The blog post which provides context into BigQuery CDC and streaming upserts can be found [HERE](https://cloud.google.com/blog/products/data-analytics/bigquery-gains-change-data-capture-functionality).
 
 Please refer and copy the files from the *cdc-example* folder.
