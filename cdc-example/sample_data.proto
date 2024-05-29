@@ -11,4 +11,5 @@ message SampleData {
   optional string Customer_Tier = 5;
   optional string Active_Subscriptions = 6;
   optional string _CHANGE_TYPE = 7;
+  optional string _CHANGE_SEQUENCE_NUMBER = 8;
 }
