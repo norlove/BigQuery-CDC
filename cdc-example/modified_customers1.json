@@ -2,28 +2,17 @@
  {
   "Customer_ID": 1,
   "Customer_Enrollment_Date": 19301,
-  "Customer_Name": "Nick_2.0",
+  "Customer_Name": "Good_Twin_Nick",
   "Customer_Address": "1600 Amphitheatre Pkwy, Mountain View, CA",
   "Customer_Tier": "Platinum",
   "Active_Subscriptions": "{\"Internet_Subscription\":\"Paid\",\"Music_Subscription\":\"Paid\"}",
-  "_CHANGE_TYPE": "UPSERT"
+  "_CHANGE_TYPE": "UPSERT",
+  "_CHANGE_SEQUENCE_NUMBER":"FFF"
  },
  {
   "Customer_ID": 2,
-  "Customer_Enrollment_Date": 19318,
-  "Customer_Name": "Heather",
-  "Customer_Address": "285 Fulton St, New York, NY",
-  "Customer_Tier": "Commercial",
-  "Active_Subscriptions": "{\"TV_Subscription\":\"Free\"}",
-  "_CHANGE_TYPE": "UPSERT"
- },
- {
-  "Customer_ID": 7, 
-  "_CHANGE_TYPE": "DELETE"
- },
- {
-  "Customer_ID": 8, 
-  "_CHANGE_TYPE": "DELETE"
+  "_CHANGE_TYPE": "DELETE",
+  "_CHANGE_SEQUENCE_NUMBER":"AAA/1"
  },
  {
   "Customer_ID": 10,
