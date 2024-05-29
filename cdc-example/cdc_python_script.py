@@ -116,6 +116,7 @@ if __name__ == "__main__":
     ###### Uncomment the above block to provide additional logging capabilities ######
  
     with open('new_customers.json', 'r') as json_file:
-    #with open('modified_customers.json','r') as json_file:
+    #with open('modified_customers1.json','r') as json_file:
+    #with open('modified_customers2.json','r') as json_file:
         data = json.load(json_file)
     BigQueryStorageWriteAppend.append_rows_proto2("<supply_your_project_id_here>","CDC_Demo_Dataset", "Customer_Records",data=data) # Change this to your specific BigQuery project, dataset, table details
