@@ -39,7 +39,7 @@ FIELDS_TO_CHECK = [
     "Customer_Address",
     "Customer_Tier",
     "Active_Subscriptions",
-    "_CHANGE_TYPE"
+    "_CHANGE_TYPE",
     "_CHANGE_SEQUENCE_NUMBER"]
  
 # Function to create a batch of row data to be serialized.
