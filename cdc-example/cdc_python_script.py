@@ -28,6 +28,9 @@ import json
 #   protoc --python_out=. sample_data.proto
 #
 ##################################################################################
+
+### You may also have to update your BigQuery storage package with: ###
+# pip install google-cloud-bigquery-storage
  
 import sample_data_pb2
  
